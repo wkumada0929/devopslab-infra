@@ -1,7 +1,7 @@
 # Cria uma VM no Google Cloud
 resource "google_compute_instance" "firstvm" {
   name         = "helloworld"
-  machine_type = "n1-standard-1"
+  machine_type = "n2-standard-2"
   zone         = var.zone
 
   # Defini a Imagem da VM
